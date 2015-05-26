@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D61CC931B12955500EEB8E7 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CC911B12955500EEB8E7 /* WebViewController.m */; };
+		7D61CC941B12955500EEB8E7 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D61CC921B12955500EEB8E7 /* WebViewController.xib */; };
+		7D61CC961B12967B00EEB8E7 /* Information.htm in Resources */ = {isa = PBXBuildFile; fileRef = 7D61CC951B12967B00EEB8E7 /* Information.htm */; };
+		7D61CC9A1B12972800EEB8E7 /* ViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CC991B12972800EEB8E7 /* ViewControllerFactory.m */; };
+		7D61CCA61B129B4600EEB8E7 /* UserSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCA51B129B4600EEB8E7 /* UserSettingViewController.m */; };
+		7D61CCBF1B12A6D900EEB8E7 /* MSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCAB1B12A6D900EEB8E7 /* MSCalendarViewController.m */; };
+		7D61CCC01B12A6D900EEB8E7 /* MSCurrentTimeGridline.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCAD1B12A6D900EEB8E7 /* MSCurrentTimeGridline.m */; };
+		7D61CCC11B12A6D900EEB8E7 /* MSCurrentTimeIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCAF1B12A6D900EEB8E7 /* MSCurrentTimeIndicator.m */; };
+		7D61CCC21B12A6D900EEB8E7 /* MSDayColumnHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCB11B12A6D900EEB8E7 /* MSDayColumnHeader.m */; };
+		7D61CCC31B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCB31B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.m */; };
+		7D61CCC41B12A6D900EEB8E7 /* MSEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCB51B12A6D900EEB8E7 /* MSEvent.m */; };
+		7D61CCC51B12A6D900EEB8E7 /* MSEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCB71B12A6D900EEB8E7 /* MSEventCell.m */; };
+		7D61CCC61B12A6D900EEB8E7 /* MSGridline.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCB91B12A6D900EEB8E7 /* MSGridline.m */; };
+		7D61CCC71B12A6D900EEB8E7 /* MSTimeRowHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCBB1B12A6D900EEB8E7 /* MSTimeRowHeader.m */; };
+		7D61CCC81B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D61CCBD1B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.m */; };
+		7DAFAE791B1273C400A8AE36 /* SideMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAFAE761B1273C400A8AE36 /* SideMenuTableViewController.m */; };
+		7DAFAE7A1B1273C400A8AE36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAFAE781B1273C400A8AE36 /* Images.xcassets */; };
+		7DAFAE7C1B1279AE00A8AE36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAFAE7B1B1279AE00A8AE36 /* Main.storyboard */; };
+		7DAFAE811B128F8300A8AE36 /* VolunteersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAFAE801B128F8300A8AE36 /* VolunteersViewController.m */; };
+		7DCCA8181B12AAA3003A139E /* Hospital.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCA8171B12AAA3003A139E /* Hospital.xcdatamodel */; };
+		7DE089501B139AC7007DB15B /* DepartmentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE0894F1B139AC7007DB15B /* DepartmentsTableViewController.m */; };
+		7DF4F3541B1272FE00CC1697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4F3531B1272FE00CC1697 /* main.m */; };
+		7DF4F3571B1272FE00CC1697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF4F3561B1272FE00CC1697 /* AppDelegate.m */; };
+		8A42C71A97B5017C0DB69DE8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B32A204FC9D5E5B376A4949 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04BFDE559F7E0232F83C4D30 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		0B32A204FC9D5E5B376A4949 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		19537647FC03F92337D81ECE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7D61CC901B12955500EEB8E7 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		7D61CC911B12955500EEB8E7 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		7D61CC921B12955500EEB8E7 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		7D61CC951B12967B00EEB8E7 /* Information.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Information.htm; sourceTree = "<group>"; };
+		7D61CC981B12972800EEB8E7 /* ViewControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFactory.h; sourceTree = "<group>"; };
+		7D61CC991B12972800EEB8E7 /* ViewControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFactory.m; sourceTree = "<group>"; };
+		7D61CCA41B129B4600EEB8E7 /* UserSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettingViewController.h; sourceTree = "<group>"; };
+		7D61CCA51B129B4600EEB8E7 /* UserSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingViewController.m; sourceTree = "<group>"; };
+		7D61CCAA1B12A6D900EEB8E7 /* MSCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCalendarViewController.h; sourceTree = "<group>"; };
+		7D61CCAB1B12A6D900EEB8E7 /* MSCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCalendarViewController.m; sourceTree = "<group>"; };
+		7D61CCAC1B12A6D900EEB8E7 /* MSCurrentTimeGridline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCurrentTimeGridline.h; sourceTree = "<group>"; };
+		7D61CCAD1B12A6D900EEB8E7 /* MSCurrentTimeGridline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCurrentTimeGridline.m; sourceTree = "<group>"; };
+		7D61CCAE1B12A6D900EEB8E7 /* MSCurrentTimeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCurrentTimeIndicator.h; sourceTree = "<group>"; };
+		7D61CCAF1B12A6D900EEB8E7 /* MSCurrentTimeIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCurrentTimeIndicator.m; sourceTree = "<group>"; };
+		7D61CCB01B12A6D900EEB8E7 /* MSDayColumnHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDayColumnHeader.h; sourceTree = "<group>"; };
+		7D61CCB11B12A6D900EEB8E7 /* MSDayColumnHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDayColumnHeader.m; sourceTree = "<group>"; };
+		7D61CCB21B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDayColumnHeaderBackground.h; sourceTree = "<group>"; };
+		7D61CCB31B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDayColumnHeaderBackground.m; sourceTree = "<group>"; };
+		7D61CCB41B12A6D900EEB8E7 /* MSEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEvent.h; sourceTree = "<group>"; };
+		7D61CCB51B12A6D900EEB8E7 /* MSEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEvent.m; sourceTree = "<group>"; };
+		7D61CCB61B12A6D900EEB8E7 /* MSEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSEventCell.h; sourceTree = "<group>"; };
+		7D61CCB71B12A6D900EEB8E7 /* MSEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSEventCell.m; sourceTree = "<group>"; };
+		7D61CCB81B12A6D900EEB8E7 /* MSGridline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGridline.h; sourceTree = "<group>"; };
+		7D61CCB91B12A6D900EEB8E7 /* MSGridline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGridline.m; sourceTree = "<group>"; };
+		7D61CCBA1B12A6D900EEB8E7 /* MSTimeRowHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTimeRowHeader.h; sourceTree = "<group>"; };
+		7D61CCBB1B12A6D900EEB8E7 /* MSTimeRowHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTimeRowHeader.m; sourceTree = "<group>"; };
+		7D61CCBC1B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTimeRowHeaderBackground.h; sourceTree = "<group>"; };
+		7D61CCBD1B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTimeRowHeaderBackground.m; sourceTree = "<group>"; };
+		7DAFAE751B1273C400A8AE36 /* SideMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewController.h; sourceTree = "<group>"; };
+		7DAFAE761B1273C400A8AE36 /* SideMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewController.m; sourceTree = "<group>"; };
+		7DAFAE781B1273C400A8AE36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DAFAE7B1B1279AE00A8AE36 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7DAFAE7D1B127BD700A8AE36 /* Hospital.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hospital.pch; sourceTree = "<group>"; };
+		7DAFAE7F1B128F8300A8AE36 /* VolunteersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VolunteersViewController.h; sourceTree = "<group>"; };
+		7DAFAE801B128F8300A8AE36 /* VolunteersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolunteersViewController.m; sourceTree = "<group>"; };
+		7DCCA8171B12AAA3003A139E /* Hospital.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hospital.xcdatamodel; sourceTree = "<group>"; };
+		7DE0894E1B139AC7007DB15B /* DepartmentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentsTableViewController.h; sourceTree = "<group>"; };
+		7DE0894F1B139AC7007DB15B /* DepartmentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentsTableViewController.m; sourceTree = "<group>"; };
+		7DF4F34E1B1272FE00CC1697 /* Hospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF4F3521B1272FE00CC1697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF4F3531B1272FE00CC1697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF4F3551B1272FE00CC1697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		7DF4F3561B1272FE00CC1697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF4F34B1B1272FE00CC1697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A42C71A97B5017C0DB69DE8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D61CCA71B12A6D900EEB8E7 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				7D61CCAA1B12A6D900EEB8E7 /* MSCalendarViewController.h */,
+				7D61CCAB1B12A6D900EEB8E7 /* MSCalendarViewController.m */,
+				7D61CCAC1B12A6D900EEB8E7 /* MSCurrentTimeGridline.h */,
+				7D61CCAD1B12A6D900EEB8E7 /* MSCurrentTimeGridline.m */,
+				7D61CCAE1B12A6D900EEB8E7 /* MSCurrentTimeIndicator.h */,
+				7D61CCAF1B12A6D900EEB8E7 /* MSCurrentTimeIndicator.m */,
+				7D61CCB01B12A6D900EEB8E7 /* MSDayColumnHeader.h */,
+				7D61CCB11B12A6D900EEB8E7 /* MSDayColumnHeader.m */,
+				7D61CCB21B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.h */,
+				7D61CCB31B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.m */,
+				7D61CCB41B12A6D900EEB8E7 /* MSEvent.h */,
+				7D61CCB51B12A6D900EEB8E7 /* MSEvent.m */,
+				7D61CCB61B12A6D900EEB8E7 /* MSEventCell.h */,
+				7D61CCB71B12A6D900EEB8E7 /* MSEventCell.m */,
+				7D61CCB81B12A6D900EEB8E7 /* MSGridline.h */,
+				7D61CCB91B12A6D900EEB8E7 /* MSGridline.m */,
+				7D61CCBA1B12A6D900EEB8E7 /* MSTimeRowHeader.h */,
+				7D61CCBB1B12A6D900EEB8E7 /* MSTimeRowHeader.m */,
+				7D61CCBC1B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.h */,
+				7D61CCBD1B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		7DAFAE741B1273C400A8AE36 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7D61CCA71B12A6D900EEB8E7 /* Calendar */,
+				7D61CC981B12972800EEB8E7 /* ViewControllerFactory.h */,
+				7D61CC991B12972800EEB8E7 /* ViewControllerFactory.m */,
+				7DAFAE751B1273C400A8AE36 /* SideMenuTableViewController.h */,
+				7DAFAE761B1273C400A8AE36 /* SideMenuTableViewController.m */,
+				7DAFAE7F1B128F8300A8AE36 /* VolunteersViewController.h */,
+				7DAFAE801B128F8300A8AE36 /* VolunteersViewController.m */,
+				7DF4F3551B1272FE00CC1697 /* AppDelegate.h */,
+				7DF4F3561B1272FE00CC1697 /* AppDelegate.m */,
+				7D61CC901B12955500EEB8E7 /* WebViewController.h */,
+				7D61CC911B12955500EEB8E7 /* WebViewController.m */,
+				7D61CC921B12955500EEB8E7 /* WebViewController.xib */,
+				7D61CCA41B129B4600EEB8E7 /* UserSettingViewController.h */,
+				7D61CCA51B129B4600EEB8E7 /* UserSettingViewController.m */,
+				7DE0894E1B139AC7007DB15B /* DepartmentsTableViewController.h */,
+				7DE0894F1B139AC7007DB15B /* DepartmentsTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DAFAE771B1273C400A8AE36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DCCA8171B12AAA3003A139E /* Hospital.xcdatamodel */,
+				7D61CC951B12967B00EEB8E7 /* Information.htm */,
+				7DAFAE781B1273C400A8AE36 /* Images.xcassets */,
+				7DAFAE7B1B1279AE00A8AE36 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7DF4F3451B1272FE00CC1697 = {
+			isa = PBXGroup;
+			children = (
+				7DF4F3501B1272FE00CC1697 /* Hospital */,
+				7DF4F34F1B1272FE00CC1697 /* Products */,
+				9CDD3EA3A673D4135303F728 /* Pods */,
+				CFE3BA100306BD21B0D1E2CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF4F34F1B1272FE00CC1697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4F34E1B1272FE00CC1697 /* Hospital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF4F3501B1272FE00CC1697 /* Hospital */ = {
+			isa = PBXGroup;
+			children = (
+				7DAFAE741B1273C400A8AE36 /* Classes */,
+				7DAFAE771B1273C400A8AE36 /* Resources */,
+				7DF4F3511B1272FE00CC1697 /* Supporting Files */,
+			);
+			path = Hospital;
+			sourceTree = "<group>";
+		};
+		7DF4F3511B1272FE00CC1697 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF4F3521B1272FE00CC1697 /* Info.plist */,
+				7DF4F3531B1272FE00CC1697 /* main.m */,
+				7DAFAE7D1B127BD700A8AE36 /* Hospital.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CDD3EA3A673D4135303F728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19537647FC03F92337D81ECE /* Pods.debug.xcconfig */,
+				04BFDE559F7E0232F83C4D30 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFE3BA100306BD21B0D1E2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B32A204FC9D5E5B376A4949 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF4F34D1B1272FE00CC1697 /* Hospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF4F3711B1272FE00CC1697 /* Build configuration list for PBXNativeTarget "Hospital" */;
+			buildPhases = (
+				C396B771D25B4897D3023270 /* Check Pods Manifest.lock */,
+				7DF4F34A1B1272FE00CC1697 /* Sources */,
+				7DF4F34B1B1272FE00CC1697 /* Frameworks */,
+				7DF4F34C1B1272FE00CC1697 /* Resources */,
+				6370FCE8E48F0EC112CFF629 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hospital;
+			productName = Hospital;
+			productReference = 7DF4F34E1B1272FE00CC1697 /* Hospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF4F3461B1272FE00CC1697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sergey Zalozniy";
+				TargetAttributes = {
+					7DF4F34D1B1272FE00CC1697 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7DF4F3491B1272FE00CC1697 /* Build configuration list for PBXProject "Hospital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DF4F3451B1272FE00CC1697;
+			productRefGroup = 7DF4F34F1B1272FE00CC1697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF4F34D1B1272FE00CC1697 /* Hospital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF4F34C1B1272FE00CC1697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D61CC961B12967B00EEB8E7 /* Information.htm in Resources */,
+				7D61CC941B12955500EEB8E7 /* WebViewController.xib in Resources */,
+				7DAFAE7A1B1273C400A8AE36 /* Images.xcassets in Resources */,
+				7DAFAE7C1B1279AE00A8AE36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6370FCE8E48F0EC112CFF629 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C396B771D25B4897D3023270 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF4F34A1B1272FE00CC1697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAFAE791B1273C400A8AE36 /* SideMenuTableViewController.m in Sources */,
+				7D61CC931B12955500EEB8E7 /* WebViewController.m in Sources */,
+				7D61CCC81B12A6D900EEB8E7 /* MSTimeRowHeaderBackground.m in Sources */,
+				7D61CCC01B12A6D900EEB8E7 /* MSCurrentTimeGridline.m in Sources */,
+				7DF4F3571B1272FE00CC1697 /* AppDelegate.m in Sources */,
+				7DF4F3541B1272FE00CC1697 /* main.m in Sources */,
+				7D61CCC61B12A6D900EEB8E7 /* MSGridline.m in Sources */,
+				7D61CCBF1B12A6D900EEB8E7 /* MSCalendarViewController.m in Sources */,
+				7DAFAE811B128F8300A8AE36 /* VolunteersViewController.m in Sources */,
+				7DCCA8181B12AAA3003A139E /* Hospital.xcdatamodel in Sources */,
+				7D61CCC71B12A6D900EEB8E7 /* MSTimeRowHeader.m in Sources */,
+				7D61CCC21B12A6D900EEB8E7 /* MSDayColumnHeader.m in Sources */,
+				7D61CCC41B12A6D900EEB8E7 /* MSEvent.m in Sources */,
+				7D61CCC11B12A6D900EEB8E7 /* MSCurrentTimeIndicator.m in Sources */,
+				7D61CCC31B12A6D900EEB8E7 /* MSDayColumnHeaderBackground.m in Sources */,
+				7D61CCC51B12A6D900EEB8E7 /* MSEventCell.m in Sources */,
+				7D61CCA61B129B4600EEB8E7 /* UserSettingViewController.m in Sources */,
+				7D61CC9A1B12972800EEB8E7 /* ViewControllerFactory.m in Sources */,
+				7DE089501B139AC7007DB15B /* DepartmentsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7DF4F36F1B1272FE00CC1697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DF4F3701B1272FE00CC1697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF4F3721B1272FE00CC1697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19537647FC03F92337D81ECE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Hospital/Hospital.pch";
+				INFOPLIST_FILE = Hospital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		7DF4F3731B1272FE00CC1697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BFDE559F7E0232F83C4D30 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Hospital/Hospital.pch";
+				INFOPLIST_FILE = Hospital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF4F3491B1272FE00CC1697 /* Build configuration list for PBXProject "Hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF4F36F1B1272FE00CC1697 /* Debug */,
+				7DF4F3701B1272FE00CC1697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF4F3711B1272FE00CC1697 /* Build configuration list for PBXNativeTarget "Hospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF4F3721B1272FE00CC1697 /* Debug */,
+				7DF4F3731B1272FE00CC1697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF4F3461B1272FE00CC1697 /* Project object */;
+}

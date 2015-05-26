@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - Bolts (1.1.5):
+    - Bolts/AppLinks (= 1.1.5)
+    - Bolts/Tasks (= 1.1.5)
+  - Bolts/AppLinks (1.1.5):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.1.5)
+  - CupertinoYankee (0.1.1)
+  - FBSDKCoreKit (4.1.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.1.0)
+    - FBSDKCoreKit/no-arc (= 4.1.0)
+  - FBSDKCoreKit/arc (4.1.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.1.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.1.0):
+    - FBSDKCoreKit
+  - ISO8601DateFormatterValueTransformer (0.5.0):
+    - RKValueTransformers (~> 1.0.0)
+  - Masonry (0.4.0)
+  - MSCollectionViewCalendarLayout (0.1.3):
+    - CupertinoYankee (~> 0.1)
+  - Parse (1.7.4):
+    - Bolts/Tasks (>= 1.1.5)
+  - ParseFacebookUtilsV4 (1.7.4):
+    - Bolts/Tasks (>= 1.1.5)
+    - FBSDKCoreKit (~> 4.0)
+    - FBSDKLoginKit (~> 4.0)
+    - Parse (~> 1.7.4)
+  - ParseUI (1.1.4):
+    - Parse (~> 1.7)
+  - RestKit (0.22.0):
+    - RestKit/Core (= 0.22.0)
+  - RestKit/Core (0.22.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.22.0)
+  - RestKit/Network (0.22.0):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.22.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.5.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.0.1)
+  - RestKit/Support (0.22.0):
+    - TransitionKit (= 2.0.0)
+  - RKValueTransformers (1.0.1)
+  - SDWebImage (3.7.2):
+    - SDWebImage/Core (= 3.7.2)
+  - SDWebImage/Core (3.7.2)
+  - SOCKit (1.1)
+  - TransitionKit (2.0.0)
+  - UIColor-HexString (1.0.1)
+
+DEPENDENCIES:
+  - CupertinoYankee (~> 0.1.0)
+  - Masonry (~> 0.4.0)
+  - MSCollectionViewCalendarLayout
+  - Parse (~> 1.7)
+  - ParseFacebookUtilsV4 (~> 1.7)
+  - ParseUI (~> 1.1.4)
+  - RestKit (~> 0.22.0)
+  - SDWebImage (~> 3.7)
+  - UIColor-HexString (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  Bolts: aac24961496d504aa56fc267cde95162a71bac39
+  CupertinoYankee: 742ab22e47518167d0c78d2eaa5aed5b6e26af3b
+  FBSDKCoreKit: 469ed167195f860dbd2b4c4bbaa33d2e90598db9
+  FBSDKLoginKit: ff6224762732e3698f30942e4544321b8c7a23e6
+  ISO8601DateFormatterValueTransformer: a48b7632ae5c07b2f0ff1ffae11938733d62c8b9
+  Masonry: a950d1934075b87bc941720a1439f1990fa0ead7
+  MSCollectionViewCalendarLayout: fba6fefdb3a340cb3e4f10725c6b3a530e6f6817
+  Parse: 6ca512c6e860b66739c95151b2f76ac4712b7842
+  ParseFacebookUtilsV4: 481ea7b00f8f62440c314ac7f80eada228bf7488
+  ParseUI: d1228541b02a36a7354c8f47747f5f7a89cf1ff0
+  RestKit: 148fe32e4b1474cbfcf9074c793977d5e9fdc8fa
+  RKValueTransformers: 127d6267755844f48eaf4fc560208ca19d336641
+  SDWebImage: 71b7cdc1d1721d6a82ed62889030225f2c249e29
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  TransitionKit: c150629869b0eab9d270f914aad2d1a088a8c19d
+  UIColor-HexString: 3b6e52edc3ba2d9053128c7eea60b4558526feb2
+
+COCOAPODS: 0.37.1
